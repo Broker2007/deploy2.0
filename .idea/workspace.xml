@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="Inal commit ffgfm Cre" />
+    <list default="true" id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="Inal commit ffgfm Cre">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +119,7 @@
       <workItem from="1741361162299" duration="389000" />
       <workItem from="1741361572725" duration="269000" />
       <workItem from="1741362571246" duration="2000" />
-      <workItem from="1741362579786" duration="976000" />
+      <workItem from="1741362579786" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <created>1741301832742</created>
