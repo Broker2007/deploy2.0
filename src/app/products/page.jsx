@@ -12,7 +12,7 @@ import phone from "@/assets/Calling.svg";
 import MyForm from "@/components/ui/MyForm/MyForm";
 
 function Products() {
-    const categories = ["Все", "Строительная оснастка", "Механическая металлообработка"];
+    const categories = ["Все", "Строительная оснастка", "Металлообработка"];
     const [search, setSearch] = useState("");
     const [categoriesId, setCategoriesId] = useState(0);
     const [showAll, setShowAll] = useState(false);
