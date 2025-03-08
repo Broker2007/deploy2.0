@@ -1,7 +1,7 @@
 "use client"
 import cl from "./page.module.scss";
 import bg from "../assets/bgc_main.jpg"
-import svar from "../assets/bgc_main — копия.jpg"
+import svar from "../assets/svarshik.jpg"
 import bg2 from "../assets/bgc_main2.jpg"
 import image1 from "../assets/image1.png"
 import image_Carousel1 from "../assets/bgc_min2.jpg"

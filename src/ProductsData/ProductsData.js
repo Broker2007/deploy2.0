@@ -1,7 +1,7 @@
-// import lul from "@/assets/product/Люлька для монолитчика.jpg"
-// import buk from "@/assets/product/Бак для воды.jpg"
+import lul from "@/assets/product/lulka.jpg"
+import buk from "@/assets/product/bakforwater.jpg"
 import cas from "@/assets/product/щиты.jpg"
-// import zax from "@/assets/product/захват маршей.jpg"
+import zax from "@/assets/product/zaxmarsh.jpg"
 import bp from "@/assets/product/bp.jpg"
 import bmh from "@/assets/product/bmh.jpg"
 import caseY from "@/assets/product/утепленныйящик.jpg"
@@ -43,60 +43,60 @@ import React from "react";
 
 const ProductsData = [
     // строительная оснастка 1
-    // {
-    //     id:1,
-    //     title:"Люлька для монолитчика",
-    //     categories:1,
-    //     src: lul,
-    //     description: "Люлька для монолитчика. Предназначена для ведения монолитный работ. Крепится к бадье неповоротной БН. Можем скомплектовать площадкой монолитчика бадью БН-0.5, бадью БН 0.75, бадью БН 1.0, бункер БН 1.5, бункер БН 2.0, бункер БН 3.0",
-    //     characteristic: [
-    //         {
-    //             titleC: "Длина",
-    //             descriptionC: "970мм"
-    //         },
-    //         {
-    //             titleC: "Ширина",
-    //             descriptionC: "925мм"
-    //         },
-    //         {
-    //             titleC: "Высота",
-    //             descriptionC: "1280мм"
-    //         },
-    //         {
-    //             titleC: "Массы",
-    //             descriptionC: "75кг"
-    //         },
-    //     ]
-    // },
-    // {
-    //     id:2,
-    //     title:"Бак для воды БВ — 3,3 Э",
-    //     categories:1,
-    //     src: buk,
-    //     description: "Бак для воды БВ — 3,3 Э. Баки металлические для воды (БВ) устанавливаются в помещение для необходимого хранения аварийного запаса питьевой и технической воды на случай повреждения центрального водопровода. Баки БВ имеют различный объем в зависимости от потребности в водообеспечении.",
-    //     characteristic: [
-    //         {
-    //             titleC: "Длина",
-    //             descriptionC: "2070мм"
-    //         },
-    //         {
-    //             titleC: "Ширина",
-    //             descriptionC: "1950мм"
-    //         },
-    //         {
-    //             titleC: "Высота",
-    //             descriptionC: "1700мм"
-    //         },
-    //         {
-    //             titleC: "Масса",
-    //             descriptionC: "525кг"
-    //         },
-    //         {
-    //             titleC: "Объем",
-    //             descriptionC: "3,3кб.м"
-    //         },
-    //     ]
-    // },
+    {
+        id:1,
+        title:"Люлька для монолитчика",
+        categories:1,
+        src: lul,
+        description: "Люлька для монолитчика. Предназначена для ведения монолитный работ. Крепится к бадье неповоротной БН. Можем скомплектовать площадкой монолитчика бадью БН-0.5, бадью БН 0.75, бадью БН 1.0, бункер БН 1.5, бункер БН 2.0, бункер БН 3.0",
+        characteristic: [
+            {
+                titleC: "Длина",
+                descriptionC: "970мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "925мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1280мм"
+            },
+            {
+                titleC: "Массы",
+                descriptionC: "75кг"
+            },
+        ]
+    },
+    {
+        id:2,
+        title:"Бак для воды БВ — 3,3 Э",
+        categories:1,
+        src: buk,
+        description: "Бак для воды БВ — 3,3 Э. Баки металлические для воды (БВ) устанавливаются в помещение для необходимого хранения аварийного запаса питьевой и технической воды на случай повреждения центрального водопровода. Баки БВ имеют различный объем в зависимости от потребности в водообеспечении.",
+        characteristic: [
+            {
+                titleC: "Длина",
+                descriptionC: "2070мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1950мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1700мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "525кг"
+            },
+            {
+                titleC: "Объем",
+                descriptionC: "3,3кб.м"
+            },
+        ]
+    },
     {
         // щитов опалубки
         id:3,
