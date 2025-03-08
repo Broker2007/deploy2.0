@@ -12,8 +12,7 @@ const Footer = () => {
                 <p className={"information"}>
                     Политика конфиденциальности<br/>
                     ООО "ВЕКТОР"<br/>
-                    ИНН 0000000000<br/>
-                    ОСНОВАНО В 2025г.
+                    ИНН 7733446127
                 </p>
                 <div className={"logo_footer"}>
                     <Image src={footer_bgc}/>
