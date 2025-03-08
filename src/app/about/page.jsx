@@ -62,7 +62,7 @@ const About = () => {
                         <Image src={milling} className={"image_card"} width={150} height={150}/>
                         <p className={"mt-100 text6"}>Наше оборудование</p>
                         <p className={"text_company  mt-25"}>
-                            1000000 станков для выполнения всех видов работ
+                            Более 10 станков для выполнения всех видов работ
                         </p>
                 </div>
                 <div className={"card mt-100 pr-40 pl-40 pb-40 max_width380 text-align-cen card_position"}>
@@ -70,7 +70,7 @@ const About = () => {
                     <Image src={order} className={"image_card"} width={140} height={140}/>
                     <p className={"mt-100 text3 hei74"}>Заказы</p>
                     <p className={"text_company  mt-25"}>
-                        109 успешно выполненных заказов за год
+                        Более 100 успешно выполненных заказов за прошлый год
                     </p>
                 </div>
                 <div className={"card mt-100 pr-40 pl-40 pb-40 max_width380 text-align-cen card_position"}>
@@ -78,7 +78,7 @@ const About = () => {
                     <Image src={delivery} className={"image_card"} width={180} height={180}/>
                     <p className={"mt-100 text3 hei74"}>Доставка</p>
                     <p className={"text_company  mt-25 d-f ai-cen"}>
-                        Готовы доставить продукцию в любую точку страны
+                        Наша компания производит доставку продукции по всей территории РФ
                     </p>
                 </div>
             </div>

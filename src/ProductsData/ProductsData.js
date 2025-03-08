@@ -136,39 +136,39 @@ const ProductsData = [
             },
         ]
     },
-    // {
-    //     id:4,
-    //     title:"Захват лестничных маршей",
-    //     categories:1,
-    //     src: zax,
-    //     description: "Захват лестничных маршей предназначен для монтажа лестничных маршей весом до 2,500 кг., а так же погрузки и выгрузки их из контейнера. Возможно производство захватов по техническому заданию.",
-    //     characteristic: [
-    //         {
-    //             titleC: "Модель",
-    //             descriptionC: "ЗЛМ-2500"
-    //         },
-    //         {
-    //             titleC: "Длина",
-    //             descriptionC: "1203мм"
-    //         },
-    //         {
-    //             titleC: "Ширина",
-    //             descriptionC: "400мм"
-    //         },
-    //         {
-    //             titleC: "Высота",
-    //             descriptionC: "1000мм"
-    //         },
-    //         {
-    //             titleC: "Грузоподъемность",
-    //             descriptionC: "2500кг"
-    //         },
-    //         {
-    //             titleC: "Масса",
-    //             descriptionC: "100кг"
-    //         },
-    //     ]
-    // },
+    {
+        id:4,
+        title:"Захват лестничных маршей",
+        categories:1,
+        src: zax,
+        description: "Захват лестничных маршей предназначен для монтажа лестничных маршей весом до 2,500 кг., а так же погрузки и выгрузки их из контейнера. Возможно производство захватов по техническому заданию.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "ЗЛМ-2500"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "1203мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "400мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1000мм"
+            },
+            {
+                titleC: "Грузоподъемность",
+                descriptionC: "2500кг"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "100кг"
+            },
+        ]
+    },
     {
         id:5,
         title:"Бункер поворотный БП",
@@ -626,11 +626,19 @@ const ProductsData = [
         title:"Кассета с пальцами",
         categories:1,
         src: kass,
-        description: "",
+        description: "Обеспечивает быструю установку и смену инструмента в токарном станке. Фиксация резцов осуществляется тремя болтами. Кассета имеет регулировку по высоте с фиксатором, что позволяет предварительно точно выставить её на необходимый уровень.",
         characteristic: [
             {
-                titleC: "Выполняеться",
-                descriptionC: "НА ЗАКАЗ"
+                titleC: "Длина",
+                descriptionC: "6000мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1600мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "2800мм"
             },
         ]
     },
@@ -639,11 +647,23 @@ const ProductsData = [
         title:"Щит для шахт лифтов",
         categories:1,
         src: shit,
-        description: "",
+        description: "Предназначен для безопасного ведения работ в местах размещения шахты лифта.",
         characteristic: [
             {
-                titleC: "Выполняеться",
-                descriptionC: "НА ЗАКАЗ"
+                titleC: "Модель",
+                descriptionC: "Пассажирский/Грузовой"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "1710/2080мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1780/2560мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "210/300кг"
             },
         ]
     },
@@ -652,11 +672,27 @@ const ProductsData = [
         title:"Подмость для шахт лифтов",
         categories:1,
         src: podmost,
-        description: "",
+        description: "Подмость для шахт-лифтов предназначена для проведения монтажных и отделочных работ в шахте лифта. Подмость обеспечивает выполнения работ на двух уровнях (этажах) ",
         characteristic: [
             {
-                titleC: "Выполняеться",
-                descriptionC: "НА ЗАКАЗ"
+                titleC: "Модель",
+                descriptionC: "Большая высота/Малая высота"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "3000/3000мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1990/1990мм"
+            },
+            {
+                titleC: "Глубина",
+                descriptionC: "2750/1950мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "210/300кг"
             },
         ]
     },
@@ -665,11 +701,23 @@ const ProductsData = [
         title:"Пирамида для оконных блоков",
         categories:1,
         src: piramida,
-        description: "",
+        description: "Пирамиды для транспортировки стекла предназначены для облегчения перевозки хрупких материалов, а так же обладают высокой грузоподъемностью. Одно из преимуществ этого оборудования заключается в том, что они могут надежно фиксировать несколько конструкций, особенно окна и триплексы, с каждой стороны.",
         characteristic: [
             {
-                titleC: "Выполняеться",
-                descriptionC: "НА ЗАКАЗ"
+                titleC: "Длина",
+                descriptionC: "1900мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1050мм"
+            },
+            {
+                titleC: "Глубина",
+                descriptionC: "1745мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "145кг"
             },
         ]
     },
@@ -678,11 +726,19 @@ const ProductsData = [
         title:"Ограждение подкрановых путей",
         categories:1,
         src: ogrj,
-        description: "",
+        description: "Предназначено для временного ограждения опасных зон в месте работы крана.",
         characteristic: [
             {
-                titleC: "Выполняеться",
-                descriptionC: "НА ЗАКАЗ"
+                titleC: "Длина",
+                descriptionC: "2500мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "450мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1000кг"
             },
         ]
     },

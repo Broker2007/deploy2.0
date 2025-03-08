@@ -65,7 +65,7 @@ const MyCarousel = ({ data }) => {
                     >
                         <div className="max_width750">
                             <p className="text6">{item.action.title}</p>
-                            <p className="text3">
+                            <div className="text3">
                                 <Accordion2
                                     accordion_inf={item.action.accordion_inf}
                                     setAccorRef={setAccorRef}
@@ -73,7 +73,7 @@ const MyCarousel = ({ data }) => {
                                     windowSize={windowSize}
                                     boolSlide={slide === idx}
                                 />
-                            </p>
+                            </div>
                         </div>
                         <Image src={item.src} alt="carousel image" className="image_homepage image_block_none" />
                     </div>

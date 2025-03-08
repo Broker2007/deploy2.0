@@ -195,21 +195,21 @@ export default function Home() {
         <div className={"bgc_main_line image_block_none mt-100"} style={bgc_main_line}>
             <div className={"container d-f jc-sa ai-cen h-100"}>
                 <div className={"text-align-cen"}>
-                    <p className={"text7_white"}>138</p>
+                    <p className={"text7_white"}>100+</p>
                     <p className={"text3_white"}>
                         выполненных работ
                     </p>
                 </div>
                 <div className={"text-align-cen"}>
-                    <p className={"text7_white"}>110000 Т.</p>
+                    <p className={"text7_white"}>1000+</p>
                     <p className={"text3_white"}>
-                        шпунта поставленно
+                        отгруженных машин
                     </p>
                 </div>
                 <div className={"text-align-cen"}>
-                    <p className={"text7_white"}>100+</p>
+                    <p className={"text7_white"}>50+</p>
                     <p className={"text3_white"}>
-                        отгруженных машин
+                        партнерских компаний
                     </p>
                 </div>
             </div>
