@@ -2189,7 +2189,7 @@
 .products{
   @include xs{
     .button_filter{
-      width: 80%;
+      width: 40%;
     }
     .width_cat{
       font-size: 15px;
@@ -2476,4 +2476,75 @@ footer {
 .border_rad{
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
+}
+
+.adaption_equipment{
+  @include xs {
+    .jc-sp{
+      justify-content: center;
+    }
+    .max_width500{
+      max-width: 100%;
+    }
+    .border_rad{
+      margin-bottom: 10px;
+    }
+    img{
+      width: 350px;
+      height: 175px;
+      object-fit: cover;
+    }
+
+  }
+  @include md {
+    .border_rad{
+      margin-bottom: 10px;
+    }
+    img{
+      width: 450px;
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+  @include lg {
+    .adapt_center{
+      text-align: center;
+    }
+    .d-f{
+      display: block;
+    }
+    .border_rad{
+      margin-bottom: 10px;
+    }
+
+    img{
+      width: 600px;
+      height: 450px;
+      object-fit: cover;
+    }
+  }
+
+  @include xl {
+    .jc-sp{
+      justify-content: space-around;
+    }
+    .adapt_center{
+      text-align: center;
+    }
+    .d-f{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .border_rad{
+      margin-bottom: 0;
+    }
+    .max_width500{
+      max-width: 500px;
+    }
+    img{
+      width: 500px;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
 }

@@ -8,7 +8,6 @@ import stan2 from "@/assets/equipment/stan2.jpg";
 import stan3 from "@/assets/equipment/stan3.jpg";
 import phone from "@/assets/Calling.svg";
 import MyForm from "@/components/ui/MyForm/MyForm";
-
 const MyEquipment = [
     {
         title: "Камера порошковой окраски",
@@ -48,7 +47,7 @@ const MyEquipment = [
 
 const Equipment = () => {
     return (
-        <main>
+        <main className={"adaption_home"}>
             <div className={"container mt-50"}>
                 <div className={"d-f ai-end gap25 action_contact "}>
                     <div className={"byk"}>
@@ -70,16 +69,41 @@ const Equipment = () => {
                         <p className={"text3 mt-5"}>Наше оборудование</p>
                     </div>
                 </div>
-                <div className={"d-f flex-wrap jc-sa gap20"}>
+                <div className={"adaption_equipment"}>
                     {MyEquipment.map((item,i) => {
                         return (
-                            <div className={"card_eq mt-50"} key={i}>
-                                <Image src={item.src} className={"ImageEquipment"}/>
-                                <p className={"text6"}>{item.title}</p>
-                                <p className={"mt-10 text_company"}>
-                                    {item.description}
-                                </p>
+                            <div className={`${i+1 !== MyEquipment.length && "border_bottom"} gap-10 mt-50 d-f jc-sp ai-cen pb-40 flex-wrap`}>
+                                <div className={"adapt_center"}>
+                                    <Image src={item.src} className={"border_rad"} width={600} height={450}/>
+                                </div>
+                                <div className={"max_width500"}>
+                                    <p className={"text6"}>
+                                        {item.title}
+                                    </p>
+                                    <p className={"text_company mt-20"}>
+                                        {item.description}
+                                    </p>
+                                </div>
+
                             </div>
+                            // <div className={"d-f jc-sa mt-50"}>
+                            //     <Image src={item.src} className={"maxWidthHeight image_block_none"} width={600} height={450}/>
+                            //
+                            //     <div className={"max_width500"}>
+                            //         <p className={"text6 text-align-cen"}>{item.title} </p>
+                            //         <p className={"mt-10 text_company"}>
+                            //             {item.description}
+                            //         </p>
+                            //     </div>
+                            //
+                            // </div>
+                            // <div className={"card_eq mt-50"} key={i}>
+                            //     <Image src={item.src} className={"ImageEquipment"}/>
+                            //     <p className={"text6"}>{item.title}</p>
+                            //     <p className={"mt-10 text_company"}>
+                            //         {item.description}
+                            //     </p>
+                            // </div>
                         )
                     })}
                 </div>

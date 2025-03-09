@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 export async function POST(req)  {
     const { name, number, message } = await req.json()
     const transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
+        host: "gmail",
         port: 465,
         secure: true,
         auth: {
@@ -12,9 +12,10 @@ export async function POST(req)  {
         }
     });
     try {
+        console.log(process.env.SMTP_PASSWORD)
         await transporter.sendMail({
-            from: "polinaf821@gmail.com",
-            to: "polinaf821@gmail.com",
+            from: "vektor.ooo.vektor@gmail.com",
+            to: "vektor.ooo.vektor@gmail.com",
             subject: `Contact form submission from ${name}`,
             html: `<p>You have a contact form submission</p><br>
         <p><strong>Email: </strong> ${number}</p><br>
