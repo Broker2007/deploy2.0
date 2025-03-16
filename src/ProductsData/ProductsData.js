@@ -8,8 +8,8 @@ import caseY from "@/assets/product/утепленныйящик.jpg"
 import bad from "@/assets/product/бадья.jpg"
 import cas1 from "@/assets/product/cas1.jpg"
 import casP from "@/assets/product/casP.jpg"
-import place from "@/assets/product/place.jpg"
-import place1 from "@/assets/product/place1.jpg"
+import place1 from "@/assets/product/place.jpg"
+import place from "@/assets/product/place1.jpg"
 import tar from "@/assets/product/tar.jpg"
 import wardrobe from "@/assets/product/шкаф.jpg"
 import davl from "@/assets/product/davl.jpg"
@@ -36,12 +36,334 @@ import podmost from "@/assets/product/podmost.jpg"
 import piramida from "@/assets/product/piramida.jpg"
 import ogrj from "@/assets/product/ogrj.jpg"
 import ogrj1 from "@/assets/product/ogrj1.jpg"
+import sahtlift from "@/assets/product/sahtlift.jpg"
+import lextexit from "@/assets/product/lestexit.jpg"
+import kubkamen from "@/assets/product/kubkamen.jpg"
+import monkol from "@/assets/product/monkol.jpg"
 import React from "react";
 
 
 
 
 const ProductsData = [
+    {
+        id:12,
+        title:"Тары для раствора",
+        categories:1,
+        src: tar,
+        description: "Тары для раствора сделаны из прочного материала, обеспечивающий долговечность пользования. Разный объем тар позволит совершать любые работы связанные со смесями и их транспортировкой.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "ТР-0,25/0,35/0,5/1,0/1,5/2,0"
+            },
+
+            {
+                titleC: "Объем",
+                descriptionC: "0,25/0,35/0,5/1,0/1,5/2,0куб.м."
+            },
+            {
+                titleC: "Грузоподъемность",
+                descriptionC: "425/700/1200/2400/3750/4700 кг"
+            }
+        ]
+    },
+    {
+        id:5,
+        title:"Бункер поворотный БП",
+        categories:1,
+        src: bp,
+        description: "Бункер поворотный БП. Производим бадью Туфелька (Калоша).Бункер предназначен для приёма и подачи бетонной смеси к месту проведения монолитных работ.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "ЗЛМ-2500"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "1203мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "400мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1000мм"
+            },
+            {
+                titleC: "Объем",
+                descriptionC: "1.0куб.м. 1.6куб.м. 2.0куб.м."
+            },
+
+        ]
+    },
+    {
+        id:6,
+        title:"Бункер челюстной БМЧ",
+        categories:1,
+        src: bmh,
+        description: "Бункер челюстной БМЧ.Предназначены для приёма, хранения и транспортировки строительных отходов в местах проведения работ.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "БМЧ-1.2/БМЧ-2.2"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "1360мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1240мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1070/1130мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "297/432кг"
+            },
+            {
+                titleC: "Грузоподьемность",
+                descriptionC: "800/1500кг"
+            },
+            {
+                titleC: "Объем",
+                descriptionC: "1.2 / 2.2 куб.м."
+            },
+        ]
+    },
+    {
+        id:4,
+        title:"Захват лестничных маршей",
+        categories:1,
+        src: zax,
+        description: "Захват лестничных маршей предназначен для монтажа лестничных маршей весом до 2,500 кг., а так же погрузки и выгрузки их из контейнера. Возможно производство захватов по техническому заданию.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "ЗЛМ-2500"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "1203мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "400мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1000мм"
+            },
+            {
+                titleC: "Грузоподъемность",
+                descriptionC: "2500кг"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "100кг"
+            },
+        ]
+    },
+    {
+        id:11,
+        title:"Площадка навесная",
+        categories:1,
+        src: place,
+        description: "Наша компания предлагает широкий ассортимент навесных площадок которые обеспечат вам удобство и эффективность. Предназначены для ведения кирпичной кладки и фасадных работ.",
+        characteristic: [
+            {
+                titleC: "Длина",
+                descriptionC: "3000/2000/1000мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "3000мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1000мм"
+            }
+        ]
+    },
+    {
+        id:25,
+        title:"Площадка выносная",
+        categories:1,
+        src: place1,
+        description: "Наша компания предлагает широкий ассортимент выносных площадок, которые обеспечат вам удобство и эффективность. Предназначены для приема грузов и строительных материалов.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "К-1,1/1,3/1,4"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "3300/4800/4650мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "2300мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1300/1400/1400мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "500/1000/950кг"
+            },
+            {
+                titleC: "Грузоподъемностью",
+                descriptionC: "2500/4000 кг"
+            }
+        ]
+    },
+    {
+        id:35,
+        title:"Щит для шахт лифтов",
+        categories:1,
+        src: shit,
+        description: "Предназначен для безопасного ведения работ в местах размещения шахты лифта.",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "Пассажирский/Грузовой"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "1710/2080мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1780/2560мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "210/300кг"
+            },
+        ]
+    },
+    {
+        id:36,
+        title:"Подмость для шахт лифтов",
+        categories:1,
+        src: podmost,
+        description: "Подмость для шахт-лифтов предназначена для проведения монтажных и отделочных работ в шахте лифта. Подмость обеспечивает выполнения работ на двух уровнях (этажах) ",
+        characteristic: [
+            {
+                titleC: "Модель",
+                descriptionC: "Большая высота/Малая высота"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "3000/3000мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "1990/1990мм"
+            },
+            {
+                titleC: "Глубина",
+                descriptionC: "2750/1950мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "210/300кг"
+            },
+        ]
+    },
+    {
+        id:103,
+        title:"Кондуктор для монтажа колонн",
+        categories:1,
+        src: monkol,
+        description: "Кондуктор для монтажа колонн предназначен для монтажа колонн сечением 400х400, 400х500, 400х600, 500х500, 500х600, 600х600,  при сборке сборных конструкций в условиях строительной площадки. Кондуктор обеспечивает вертикальную сносность сращиваемых колонн.",
+        characteristic: [
+            {
+                titleC: "Сечение",
+                descriptionC: "400х400/600х400/500х500/600х600мм"
+            },
+            {
+                titleC: "Длина",
+                descriptionC: "770/1020/920/1020мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "770/820/920/1020мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "2170мм"
+            },
+            {
+                titleC: "Масса",
+                descriptionC: "202/223/210/245кг"
+            },
+        ]
+    },
+    {
+        id:102,
+        title:"Ящик для каменщика ЯР-1",
+        categories:1,
+        src: kubkamen,
+        description: "Предназначен для подачи раствора к месту проведения работ методом \"Гирлянда\", допускается подача не более пяти  ящиков  за  один  подъём.",
+        characteristic: [
+            {
+                titleC: "Длина",
+                descriptionC: "1310мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "640мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "470мм"
+            },
+            {
+                titleC: "Грузоподъёмность",
+                descriptionC: "570кг"
+            },
+            {
+                titleC: "Объём",
+                descriptionC: "250 л."
+            },
+        ]
+    },
+    {
+        id:101,
+        title:"Лестница выхода на кровлю",
+        categories:1,
+        src: lextexit,
+        description: "Лестница выхода на кровлю предназначена для безопасного перемещения вверх и вниз по скату крыши. Используется для обслуживания и ремонта дымоходов, мансардных окон, вентиляционных труб, внешних блоков кондиционеров, телевизионных антенн и других элементов.",
+        characteristic: [
+            {
+                titleC: "Высота",
+                descriptionC: "3200мм"
+            },
+            {
+                titleC: "Грузоподъемность",
+                descriptionC: "200кг"
+            },
+        ]
+    },
+    {
+        id:100,
+        title:"Площадка шахт-лифтов",
+        categories:1,
+        src: sahtlift,
+        description: "Опорная площадка, которая служит опорой для опалубочного оборудования при бетонировании стен и перекрытий лифтовых шахт.Площадка лифтовой шахты служит опорной площадкой при монтаже внутренних щитов опалубки шахт и обеспечивает безопасную работу монтажников при монтаже опалубки и проведении работ по заливке бетона.Размер площадки: может быть изменён путём фиксации опорных балок, их конструкция позволяет сделать это с шагом 1 см.",
+        characteristic: [
+            {
+                titleC: "Уточните по номеру:",
+                descriptionC: "+7 (901) 181-11-12"
+            }
+        ]
+    },
     // строительная оснастка 1
     {
         id:1,
@@ -63,7 +385,7 @@ const ProductsData = [
                 descriptionC: "1280мм"
             },
             {
-                titleC: "Массы",
+                titleC: "Масса",
                 descriptionC: "75кг"
             },
         ]
@@ -136,106 +458,8 @@ const ProductsData = [
             },
         ]
     },
-    {
-        id:4,
-        title:"Захват лестничных маршей",
-        categories:1,
-        src: zax,
-        description: "Захват лестничных маршей предназначен для монтажа лестничных маршей весом до 2,500 кг., а так же погрузки и выгрузки их из контейнера. Возможно производство захватов по техническому заданию.",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "ЗЛМ-2500"
-            },
-            {
-                titleC: "Длина",
-                descriptionC: "1203мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "400мм"
-            },
-            {
-                titleC: "Высота",
-                descriptionC: "1000мм"
-            },
-            {
-                titleC: "Грузоподъемность",
-                descriptionC: "2500кг"
-            },
-            {
-                titleC: "Масса",
-                descriptionC: "100кг"
-            },
-        ]
-    },
-    {
-        id:5,
-        title:"Бункер поворотный БП",
-        categories:1,
-        src: bp,
-        description: "Бункер поворотный БП. Производим бадью Туфелька (Калоша).Бункер предназначен для приёма и подачи бетонной смеси к месту проведения монолитных работ.",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "ЗЛМ-2500"
-            },
-            {
-                titleC: "Длина",
-                descriptionC: "1203мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "400мм"
-            },
-            {
-                titleC: "Высота",
-                descriptionC: "1000мм"
-            },
-            {
-                titleC: "Объем",
-                descriptionC: "1.0куб.м. 1.6куб.м. 2.0куб.м."
-            },
 
-        ]
-    },
-    {
-        id:6,
-        title:"Бункер челюстной БМЧ",
-        categories:1,
-        src: bmh,
-        description: "Бункер челюстной БМЧ.Предназначены для приёма, хранения и транспортировки строительных отходов в местах проведения работ.",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "БМЧ-1.2/БМЧ-2.2"
-            },
-            {
-                titleC: "Длина",
-                descriptionC: "1360мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "1240мм"
-            },
-            {
-                titleC: "Высота",
-                descriptionC: "1070/1130мм"
-            },
-            {
-                titleC: "Масса",
-                descriptionC: "297/432кг"
-            },
-            {
-                titleC: "Грузоподьемность",
-                descriptionC: "800/1500кг"
-            },
-            {
-                titleC: "Объем",
-                descriptionC: "1.2 / 2.2 куб.м."
-            },
-        ]
-    },
+
     {
         id:7,
         title:"Ящик для раствора утепленный",
@@ -364,49 +588,8 @@ const ProductsData = [
             },
         ]
     },
-    {
-        id:11,
-        title:"Площадка навесная",
-        categories:1,
-        src: place,
-        description: "Наша компания предлагает широкий ассортимент навесных площадок которые обеспечат вам удобство и эффективность. Предназначены для ведения кирпичной кладки и фасадных работ.",
-        characteristic: [
-            {
-                titleC: "Длина",
-                descriptionC: "3000/2000/1000мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "3000мм"
-            },
-            {
-                titleC: "Высота",
-                descriptionC: "1000мм"
-            }
-        ]
-    },
-    {
-        id:12,
-        title:"Тары для раствора",
-        categories:1,
-        src: tar,
-        description: "Тары для раствора сделаны из прочного материала, обеспечивающий долговечность пользования. Разный объем тар позволит совершать любые работы связанные со смесями и их транспортировкой.",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "ТР-0,25/0,35/0,5/1,0/1,5/2,0"
-            },
 
-            {
-                titleC: "Объем",
-                descriptionC: "0,25/0,35/0,5/1,0/1,5/2,0куб.м."
-            },
-            {
-                titleC: "Грузоподъемность",
-                descriptionC: "425/700/1200/2400/3750/4700 кг"
-            }
-        ]
-    },
+
     {
         id:13,
         title:"Шкаф внешнего хранения генератора",
@@ -428,39 +611,7 @@ const ProductsData = [
             },
         ]
     },
-    {
-        id:25,
-        title:"Площадка выносная",
-        categories:1,
-        src: place1,
-        description: "Наша компания предлагает широкий ассортимент выносных площадок, которые обеспечат вам удобство и эффективность. Предназначены для приема грузов и строительных материалов.",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "К-1,1/1,3/1,4"
-            },
-            {
-                titleC: "Длина",
-                descriptionC: "3300/4800/4650мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "2300мм"
-            },
-            {
-                titleC: "Высота",
-                descriptionC: "1300/1400/1400мм"
-            },
-            {
-                titleC: "Масса",
-                descriptionC: "500/1000/950кг"
-            },
-            {
-                titleC: "Грузоподъемностью",
-                descriptionC: "2500/4000 кг"
-            }
-        ]
-    },
+
     {
         id:26,
         title:"Воронка к БН",
@@ -642,60 +793,8 @@ const ProductsData = [
             },
         ]
     },
-    {
-        id:35,
-        title:"Щит для шахт лифтов",
-        categories:1,
-        src: shit,
-        description: "Предназначен для безопасного ведения работ в местах размещения шахты лифта.",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "Пассажирский/Грузовой"
-            },
-            {
-                titleC: "Длина",
-                descriptionC: "1710/2080мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "1780/2560мм"
-            },
-            {
-                titleC: "Масса",
-                descriptionC: "210/300кг"
-            },
-        ]
-    },
-    {
-        id:36,
-        title:"Подмость для шахт лифтов",
-        categories:1,
-        src: podmost,
-        description: "Подмость для шахт-лифтов предназначена для проведения монтажных и отделочных работ в шахте лифта. Подмость обеспечивает выполнения работ на двух уровнях (этажах) ",
-        characteristic: [
-            {
-                titleC: "Модель",
-                descriptionC: "Большая высота/Малая высота"
-            },
-            {
-                titleC: "Длина",
-                descriptionC: "3000/3000мм"
-            },
-            {
-                titleC: "Ширина",
-                descriptionC: "1990/1990мм"
-            },
-            {
-                titleC: "Глубина",
-                descriptionC: "2750/1950мм"
-            },
-            {
-                titleC: "Масса",
-                descriptionC: "210/300кг"
-            },
-        ]
-    },
+
+
     {
         id:37,
         title:"Пирамида для оконных блоков",

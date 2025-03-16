@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="Inal commit ffgfm Cre">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/contact/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/contact/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsData/ProductsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsData/ProductsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/product/place1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/product/place1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,12 @@
       <workItem from="1741362579786" duration="5106000" />
       <workItem from="1741437861259" duration="5797000" />
       <workItem from="1741457995691" duration="5355000" />
-      <workItem from="1741480956764" duration="5424000" />
+      <workItem from="1741480956764" duration="6642000" />
+      <workItem from="1741625026417" duration="2605000" />
+      <workItem from="1741627691060" duration="840000" />
+      <workItem from="1741674925391" duration="4000" />
+      <workItem from="1741726171249" duration="591000" />
+      <workItem from="1741947553977" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <created>1741301832742</created>
