@@ -52,16 +52,14 @@ function Header() {
         let startTouchY = 0;
         let endTouchY = 0;
 
+        document.addEventListener("touchstart", (event) => {
+            startTouchX = event.changedTouches[0].pageX;
+            startTouchY = event.changedTouches[0].pageY;
+        });
 
         document.addEventListener("touchend", (event) => {
             endTouchX = event.changedTouches[0].pageX;
             endTouchY = event.changedTouches[0].pageY;
-            if (
-                startTouchX < 100 &&
-                Math.abs(endTouchY - startTouchY) < 40 &&
-                endTouchX > startTouchX
-            )
-                setOpenMenu(true);
             if (
                 startTouchX < 240 &&
                 Math.abs(endTouchY - startTouchY) < 40 &&
