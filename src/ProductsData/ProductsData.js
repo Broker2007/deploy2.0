@@ -41,6 +41,7 @@ import sahtlift from "@/assets/product/sahtlift.jpg"
 import lextexit from "@/assets/product/lestexit.jpg"
 import kubkamen from "@/assets/product/kubkamen.jpg"
 import monkol from "@/assets/product/monkol.jpg"
+import montagmetal from "@/assets/product/montagmetal.jpg"
 import React from "react";
 
 
@@ -1039,6 +1040,19 @@ const ProductsData = [
         categories:2,
         src:rolk,
         description:["Наши специалисты разрабатывают проект на основе индивидуальных эскизов, чертежей заказчика. Конструкции создают из качественного металла, что гарантирует прочность изделия любого уровня сложности.",<br/>,<br/>, "По всем вопросам звоните на номер:+7 (901) 181-11-12"],
+        characteristic: [
+            {
+                titleC: "Выполняется",
+                descriptionC: "НА ЗАКАЗ"
+            },
+        ]
+    },
+    {
+        id:305,
+        title:"Монтаж металлоконструкций",
+        categories:montagmetal,
+        src:rolk,
+        description:"Компания Вектор проводит монтаж металлоконструкций",
         characteristic: [
             {
                 titleC: "Выполняется",
