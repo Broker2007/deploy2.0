@@ -64,7 +64,7 @@ export default function myForm(props) {
                     type='text'
                     value={inputs.name}
                     onChange={handleChange}
-                    placeholder='Name'
+                    placeholder='Ваше имя'
                     className={"mt-25 inputField w-100"}
                     maxLength={40}
                     required
@@ -74,7 +74,7 @@ export default function myForm(props) {
                     type='text'
                     value={inputs.number}
                     onChange={handleChange}
-                    placeholder='Number'
+                    placeholder='Ваш номер'
                     maxLength={40}
                     className={"inputField w-100"}
                     required
