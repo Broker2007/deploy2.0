@@ -1050,8 +1050,8 @@ const ProductsData = [
     {
         id:305,
         title:"Монтаж металлоконструкций",
-        categories:montagmetal,
-        src:rolk,
+        categories:2,
+        src:montagmetal,
         description:"Компания Вектор проводит монтаж металлоконструкций",
         characteristic: [
             {
