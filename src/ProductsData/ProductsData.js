@@ -1,6 +1,7 @@
 import lul from "@/assets/product/lulka.jpg"
 import buk from "@/assets/product/bakforwater.jpg"
 import cas from "@/assets/product/щиты.jpg"
+import cas2 from "@/assets/product/cas2.jpg"
 import zax from "@/assets/product/zaxmarsh.jpg"
 import bp from "@/assets/product/bp.jpg"
 import bmh from "@/assets/product/bmh.jpg"
@@ -267,6 +268,28 @@ const ProductsData = [
         ]
     },
 
+    {
+        // щитов опалубки
+        id:333,
+        title:"Кассеты для хранения щитов опалубки 2.0",
+        categories:1,
+        src: cas2,
+        description: "Кассеты предназначены для хранения щитов опалубки в местах проведения работ.",
+        characteristic: [
+            {
+                titleC: "Длина",
+                descriptionC: "5900мм"
+            },
+            {
+                titleC: "Ширина",
+                descriptionC: "2300мм"
+            },
+            {
+                titleC: "Высота",
+                descriptionC: "1900мм"
+            },
+        ]
+    },
     {
         id:36,
         title:"Подмость для шахт лифтов",

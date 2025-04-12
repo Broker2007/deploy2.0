@@ -55,7 +55,7 @@ const Contact = () => {
                     <div>
                         <div className={"d-f jc-s ai-cen gap25 "}>
                             <Image src={location} width={40} height={40} alt="location" />
-                            <p className={"text_company"}>г.Москва ул.Соловьиная Роща д.3 пом.3/1</p>
+                            <p className={"text_company"}>Тверская область г.Ржев ул.Центральная д.19</p>
                         </div>
                         <div className={"d-f jc-s ai-cen gap25 mt-30"}>
                             <Image src={phone} width={40} height={40} alt="phone" />
@@ -75,12 +75,12 @@ const Contact = () => {
                             {!isMapLoaded && <p>Загрузка карты...</p>}
                             <YMaps query={{ apikey: "0792711d-4ca1-4518-8f0d-1acbd6ae8727" }}>
                                 <Map
-                                    defaultState={{ center: [55.889937, 37.399030], zoom: 10 }}
+                                    defaultState={{ center: [56.269306, 34.285919], zoom: 10 }}
                                     width={width}
                                     height={height}
                                     onLoad={() => setIsMapLoaded(true)} // Устанавливаем флаг, когда карта загрузится
                                 >
-                                    <Placemark geometry={[55.889937, 37.399030]} />
+                                    <Placemark geometry={[56.269306, 34.285919]} />
                                 </Map>
                             </YMaps>
                         </div>
