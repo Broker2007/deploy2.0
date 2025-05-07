@@ -71,7 +71,7 @@ function Header() {
   return (
       <header className="header">
           <Link href={"/"} >
-              <Image src={logo_main} width={150} height={80} className={"image_logo"}/>
+              <Image src={logo_main} className={"image_logo"}/>
           </Link>
 
           <nav className={`header__nav ${isOpenMenu ? "active" : ""}`} ref={menuRef}>

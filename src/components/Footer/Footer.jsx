@@ -16,7 +16,7 @@ const Footer = () => {
                 </p>
                 <div className={"logo_footer"}>
 
-                    <Image src={footer_bgc} width={150} height={50}/>
+                    <Image src={footer_bgc}/>
                 </div>
                 <div className={"d-f jc-s gap25 ai-cen flex-wrap icons"}>
                     <Image src={mail} width={40} height={40}/>

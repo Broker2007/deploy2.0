@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="Inal commit ffgfm Cre">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsData/ProductsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsData/ProductsData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo_vek.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo_vek.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/product/ogr2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/product/ogr2.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="Inal commit ffgfm Cre" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +132,11 @@
       <workItem from="1743412476916" duration="3868000" />
       <workItem from="1743423460157" duration="592000" />
       <workItem from="1743892523016" duration="589000" />
-      <workItem from="1744480594035" duration="2300000" />
+      <workItem from="1744480594035" duration="4248000" />
+      <workItem from="1744711025865" duration="11000" />
+      <workItem from="1744723766518" duration="590000" />
+      <workItem from="1744744574751" duration="591000" />
+      <workItem from="1746644249482" duration="2195000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <created>1741301832742</created>

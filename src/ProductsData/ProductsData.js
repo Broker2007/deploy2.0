@@ -6,6 +6,7 @@ import zax from "@/assets/product/zaxmarsh.jpg"
 import bp from "@/assets/product/bp.jpg"
 import bmh from "@/assets/product/bmh.jpg"
 import caseY from "@/assets/product/утепленныйящик.jpg"
+import lav from "@/assets/product/lav.jpg"
 import bad from "@/assets/product/бадья.jpg"
 import ogr2 from "@/assets/product/ogr2.jpg"
 import cas1 from "@/assets/product/cas1.jpg"
@@ -198,31 +199,31 @@ const ProductsData = [
         title:"Площадка выносная",
         categories:1,
         src: place1,
-        description: "Наша компания предлагает широкий ассортимент выносных площадок, которые обеспечат вам удобство и эффективность. Предназначены для приема грузов и строительных материалов.",
+        description: "Производим выносные площадки различных моделей: К 1.3 (грузоподъемность 2500 кг), К 1.4 (3000 кг), К 1.7 — для узких проёмов. Площадки поднимаются краном, фиксируются распорками и используются для подачи стройматериалов на перекрытие. К 1.3 выпускается более 20 лет, К 1.4 с 2020 года серийно производится без необходимости в пандусе. Гарантируем качество — каждая площадка имеет паспорт и сертификат.",
         characteristic: [
             {
                 titleC: "Модель",
-                descriptionC: "К-1,1/1,3/1,4"
+                descriptionC: "К-1,3/1,4/1.7"
             },
             {
                 titleC: "Длина",
-                descriptionC: "3300/4800/4650мм"
+                descriptionC: "4710/4700/4710мм"
             },
             {
                 titleC: "Ширина",
-                descriptionC: "2300мм"
+                descriptionC: "2350/2270/1800мм"
             },
             {
                 titleC: "Высота",
-                descriptionC: "1300/1400/1400мм"
+                descriptionC: "1200/1140/1200мм"
             },
             {
                 titleC: "Масса",
-                descriptionC: "500/1000/950кг"
+                descriptionC: "750/650/700кг"
             },
             {
                 titleC: "Грузоподъемностью",
-                descriptionC: "2500/4000 кг"
+                descriptionC: " 2500/3000/2500кг"
             }
         ]
     },
@@ -648,7 +649,19 @@ const ProductsData = [
             },
         ]
     },
-
+    {
+        id:22877,
+        title:"Лавочка",
+        categories:1,
+        src:lav,
+        description:["Наши специалисты разрабатывают проект на основе индивидуальных эскизов, чертежей заказчика.",<br/>,<br/>, "По всем вопросам звоните на номер:+7 (901) 181-11-12"],
+        characteristic: [
+            {
+                titleC: "Выполняется",
+                descriptionC: "НА ЗАКАЗ"
+            },
+        ]
+    },
     {
         id:13,
         title:"Шкаф внешнего хранения генератора",
